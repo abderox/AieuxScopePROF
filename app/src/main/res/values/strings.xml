@@ -1,0 +1,70 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Aieuxscope</string>
+    <string name="aieuxscope">AieuxScope™</string>
+    <string name="enterprise">IRISI_GROUP_3 2021</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="exemple_slogan">Choose your destination, plan your trip. \nPick the best place to your holiday</string>
+    <string name="example_title_slogan">Plan Your Trip</string>
+    <string name="get_started">Get Started</string>
+    <string name="next">Next</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="task_title">Add tasks to be implemented today</string>
+    <string name="title_activity_tasks">Tasks</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="previous">Previous</string>
+    <string name="like">Like</string>
+    <string name="comment">Comment</string>
+    <string name="more">More</string>
+    <string name="choosedrink1">lets get into it</string>
+    <string name="choosedrink2">See my needs for today</string>
+    <string name="choosedrink3">Finish my day</string>
+    <string name="number">Weight : </string>
+    <string name="number2">Takes : </string>
+    <string name="number3">Period : </string>
+    <string name="number4">Height /m : </string>
+    <string name="bmi">My BMI</string>
+    <string name="submit">Submit</string>
+
+
+
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_ifall_alert">Fall detection</string>
+
+    <string name="supporting_text_ifall">"This application feature is built by our development team to help especially elderly people detect their fall and contact their SOS contacts .And to differentiate between crucial urgent moment and a deliberately throw or even a normal fall . The user can set a count down when to call the emergency contact already sat. \n By accepting ,  the application will be permitted to be running in the background , which you can stop anytime .
+       \n TO EDIT YOUR CONTACTS APPLY A LONG PRESS ON THE ITEM
+        "</string>
+    <string name="cancel" tools:ignore="ButtonCase">cancel</string>
+    <string name="decline">decline</string>
+    <string name="accept">accept</string>
+    <string name="okay">okay</string>
+
+
+    <string name="email_app">AieuxScopeCContact@gmail.com</string>
+    <string name="AppName">AieuxScope</string>
+    <string name="medicine_nreminder">Medicine \nReminder</string>
+    <string name="my_nagenda">My\nAgenda</string>
+    <string name="my_steps">My steps</string>
+    <string name="i_fall">I fall</string>
+    <string name="water_nreminder">Water\nReminder</string>
+    <string name="my_doctor">My Doctor</string>
+
+    <string name="hello">Hello</string>
+    <string name="i_fall_title">I Fall</string>
+    <string name="title_activity_customized_alert">customizedAlert</string>
+    <string name="activate_feature">Activate Feature</string>
+
+    <string name="alarmejarcupbottle2">set</string>
+    <string name="alarmejarcupbottle">set my next take now!</string>
+    <string name="needjar">See my needs for today</string>
+    <string name="selecttime">Select time</string>
+    <string name="dialog">Your Needs</string>
+    <string name="cncl">Cancel</string>
+
+</resources>
