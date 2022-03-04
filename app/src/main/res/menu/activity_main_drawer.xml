@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu__"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_baseline_feedback_24"
+            android:title="@string/about_app" />
+        <item
+            android:id="@+id/nav_switch"
+            android:checkable="true"
+            android:icon="@drawable/fall"
+            android:title="@string/fall_detection"
+            app:actionViewClass="com.google.android.material.switchmaterial.SwitchMaterial" />
+        <item
+            android:id="@+id/Accelo"
+            android:icon="@drawable/walk"
+            android:title="@string/who" />
+    </group>
+
+    <item android:title="@string/more">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/share" />
+            <item
+                android:id="@+id/nav_dark_mode"
+
+                android:icon="@drawable/ic_baseline_highlight_24"
+
+
+                android:title="@string/toggle_theme" />
+
+        </menu>
+    </item>
+
+
+</menu>

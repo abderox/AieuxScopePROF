@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Views.AcceloGraph"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/hello"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        fontPath="fonts/nunito_extra_bold.ttf"
+                        android:layout_width="332dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/who_am_i"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="28sp"
+                        android:textStyle="bold"
+                        tools:ignore="MissingPrefix" />
+
+                    <ImageView
+
+                        android:id="@+id/optionsAn"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/ic_help" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.switchmaterial.SwitchMaterial
+                        android:id="@+id/switchwho"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:checked="false"
+                        android:text="@string/activate_feature"
+                        tools:ignore="InvalidId" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="55dp"
+            android:orientation="vertical">
+
+            <TextView
+                fontPath="fonts/nunito_extra_bold.ttf"
+                android:layout_width="332dp"
+                android:layout_height="wrap_content"
+                android:text="Accelometer Graph "
+                android:textColor="@color/colorPrimary"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                tools:ignore="MissingPrefix" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+
+                        fontPath="fonts/nunito_extra_bold.ttf"
+                        android:layout_width="332dp"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="@color/bottomNavigationTintColor"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        tools:ignore="MissingPrefix"
+                        android:layout_marginTop="120dp"/>
+
+
+                    <com.jjoe64.graphview.GraphView
+                        android:id="@+id/graph"
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_marginTop="40dp" />
+
+                    <TextView
+
+                        fontPath="fonts/nunito_extra_bold.ttf"
+                        android:layout_width="332dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/who_took_my_phone"
+                        android:textColor="@color/bottomNavigationTintColor"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        tools:ignore="MissingPrefix"
+                        android:layout_marginTop="395dp"/>
+
+                    <org.eazegraph.lib.charts.PieChart
+                        android:id="@+id/piechart"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="437dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_weight="1"
+                        android:padding="6dp"
+
+                        />
+
+
+                        <View
+                        android:layout_marginTop="470dp"
+                        android:layout_marginLeft="190dp"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:background="#FFA726"
+                        android:layout_marginRight="20dp" />
+                        <TextView
+                            android:id="@+id/showSimilar"
+                            android:fontFamily="@font/doppio_one"
+                            android:layout_marginTop="470dp"
+                            android:layout_marginLeft="220dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/data_similiraty"
+                            android:paddingStart="10dp"
+                            tools:ignore="RtlSymmetry" />
+                    <TextView
+                        android:id="@+id/showSimilar3"
+                        android:fontFamily="@font/doppio_one"
+                        android:layout_marginTop="495dp"
+                        android:layout_marginLeft="220dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/average_accelometer"
+                        android:paddingStart="10dp"
+                        android:textSize="14sp"
+                        tools:ignore="RtlSymmetry" />
+                    <TextView
+
+                        fontPath="fonts/nunito_extra_bold.ttf"
+                        android:layout_width="332dp"
+                        android:layout_height="wrap_content"
+                        android:text="Me ?"
+                        android:textColor="@color/bottomNavigationTintColor"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        tools:ignore="MissingPrefix"
+                        android:layout_marginTop="580dp"/>
+                    <org.eazegraph.lib.charts.PieChart
+                        android:id="@+id/piechart2"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="600dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_weight="1"
+                        android:padding="6dp"
+
+                        />
+
+
+                    <View
+                        android:layout_marginTop="640dp"
+                        android:layout_marginLeft="190dp"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:background="#29B6F6"
+                        android:layout_marginRight="20dp" />
+                    <TextView
+                        android:id="@+id/showSimilar2"
+                        android:fontFamily="@font/doppio_one"
+                        android:layout_marginTop="640dp"
+                        android:layout_marginLeft="220dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/data_similiraty"
+                        android:paddingStart="10dp"
+                        tools:ignore="RtlSymmetry" />
+                    <TextView
+                        android:id="@+id/showSimilar4"
+                        android:fontFamily="@font/doppio_one"
+                        android:layout_marginTop="665dp"
+                        android:layout_marginLeft="220dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/average_accelometer"
+                        android:paddingStart="10dp"
+                        android:textSize="14sp"
+                        tools:ignore="RtlSymmetry" />
+
+                    <ProgressBar
+                        android:id="@+id/progressBar"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="360dp" />
+
+                    <TextView
+
+                        fontPath="fonts/nunito_extra_bold.ttf"
+                        android:layout_width="332dp"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="@color/bottomNavigationTintColor"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        tools:ignore="MissingPrefix"
+                        android:layout_marginTop="720dp"/>
+
+                </FrameLayout>
+
+
+            </ScrollView>
+
+            <TextView
+                android:id="@+id/runOnBack"
+                fontPath="fonts/nunito_extra_bold.ttf"
+                android:layout_width="332dp"
+                android:layout_height="wrap_content"
+                android:text="@string/run_on_background"
+                android:textColor="@color/bottomNavigationTintColor"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                tools:ignore="MissingPrefix" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.google.android.material.switchmaterial.SwitchMaterial
+                    android:id="@+id/switchwhoSV"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:checked="false"
+                    android:text="@string/activate_feature"
+                    tools:ignore="InvalidId" />
+
+
+            </LinearLayout>
+
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/reset_file"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="end"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:contentDescription="add_task"
+                android:src="@drawable/ic_baseline_refresh_24"
+
+                app:elevation="20dp" />
+
+            <androidx.coordinatorlayout.widget.CoordinatorLayout
+                android:id="@+id/coordinatorLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                tools:ignore="MissingConstraints" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigationt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="?android:attr/windowBackground"
+        android:foreground="?attr/selectableItemBackground"
+        app:menu="@menu/master_bottom_navigation"
+        app:elevation="10dp"
+        app:labelVisibilityMode="labeled"
+        app:itemIconTint="@color/bottom_navigation_color"
+        app:itemTextColor="@color/bottom_navigation_color"
+        app:itemBackground="@color/bottomNavigationBackground"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

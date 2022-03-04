@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aieuxscopio</string>
+    <string name="aieuxscope">AieuxScope™</string>
+    <string name="enterprise">IRISI_GROUP_3 2021</string>
+    <string name="navigation_drawer_open">Abrir cajón de navegación</string>
+    <string name="navigation_drawer_close">Cerrar cajón de navegación</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="exemple_slogan">
+Elige tu destino, planifica tu viaje. \nElige el mejor lugar para tus vacaciones
+</string>
+    <string name="example_title_slogan">Planifique su viaje</string>
+    <string name="get_started">Empezar</string>
+    <string name="next">próximo</string>
+    <string name="login_email_hint">Correo electrónico</string>
+    <string name="login_password_hint">Contraseña</string>
+    <string name="task_title">Agregar tareas para implementar hoy</string>
+    <string name="title_activity_tasks">Tareas</string>
+    <string name="first_fragment_label">primer fragmento</string>
+    <string name="second_fragment_label">Segundo Fragmento</string>
+    <string name="previous">Anterior</string>
+    <string name="hello_first_fragment">hola primer fragmento</string>
+    <string name="hello_second_fragment" >Hola segundo fragmento. Argumento: %1$s</string>
+    <string name="title_ifall_alert">Detección de caídas</string>
+    <string name="supporting_text_ifall">
+"Nuestro equipo de desarrollo creó esta característica de la aplicación \npara ayudar especialmente a las personas mayores a detectar su caída y contactar a sus contactos de SOS. Y para diferenciar entre un momento urgente crucial y un lanzamiento deliberado o incluso una caída normal. \nEl usuario puede establecer una cuenta regresiva cuándo llamar al contacto de emergencia ya sentado. \nAl aceptar, se permitirá que la aplicación se ejecute en segundo plano, lo que puede detener en cualquier momento. \nPARA EDITAR SUS CONTACTOS APLICAR UNA PULSA LARGA SOBRE EL ARTÍCULO "
+</string>
+    <string name="AcceloAnalyse">
+"Esta función es una versión beta "EN DESARROLLO" \nSu objetivo es recopilar datos sobre la forma en que camina habitualmente, le recomendamos que camine al menos de 5 a 10 minutos... y COLOQUE SU TELÉFONO EN UNA POSICIÓN FIJA para obtener MEJORES resultados \nPOR LO TANTO, ESTA CARACTERÍSTICA PUEDE AYUDARLE DE DOS MANERAS:\n\n-Detectar robos (en próximas versiones)\n-Detectar problemas al caminar, que es nuestro objetivo principal.\n\nTenga en cuenta que le proporcionamos dos porcentajes dependiendo de datos registrados (ESTIMACIÓN) !"
+</string>
+    <string name="cancel" >cancelar</string>
+    <string name="decline">disminución</string>
+    <string name="accept">aceptar</string>
+    <string name="okay">bueno</string>
+    <string name="email_app">AieuxScopeCContact@gmail.com</string>
+    <string name="AppName">AieuxAlcance</string>
+    <string name="medicine_nreminder">Medicina \nRecordatorio</string>
+    <string name="my_nagenda">Mi \nAgenda</string>
+    <string name="my_steps">mis pasos</string>
+    <string name="i_fall">me caigo</string>
+    <string name="water_nreminder">Agua\nRecordatorio</string>
+    <string name="my_doctor">Mi doctor</string>
+    <string name="hello">Hola</string>
+    <string name="i_fall_title">Me caigo</string>
+    <string name="title_activity_customized_alert">Alerta personalizada</string>
+    <string name="activate_feature">Activar función</string>
+    <string name="alarmejarcupbottle2">colocar</string>
+    <string name="alarmejarcupbottle">establecer mi próxima toma ahora!</string>
+    <string name="needjar">Ver mis necesidades para hoy</string>
+    <string name="selecttime">Seleccionar hora</string>
+    <string name="dialog">Tus necesidades</string>
+    <string name="cncl">Cancelar</string>
+    <string name="who_am_i">Quién ?</string>
+    <string name="run_on_background">Ejecutar en segundo plano</string>
+    <string name="start">Comienzo</string>
+    <string name="stop">Detener</string>
+    <string name="title_who">Quién ?</string>
+    <string name="Servicehelp_who">
+"El servicio procederá a ejecutarse en segundo plano \nPara INICIAR
+</string>
+    <string name="startRunningSVwho">que servicio</string>
+    <string name="dontshow">no volver a mostrar</string>
+    <string name="howto">
+"Le recomendamos, como primera vez, habilitar la función en primer plano durante al menos 5 -&gt; 10 minutos, para que pueda almacenar los datos predeterminados.\n¡Como puede grabar todo lo que quiera mientras está en primer plano! "
+</string>
+    <string name="more">Más</string>
+    <string name="toggle_theme">Alternar tema</string>
+    <string name="tools">Instrumentos</string>
+    <string name="fall_detection">Detección de caídas</string>
+    <string name="share">Cuota</string>
+    <string name="who">¿Quién?</string>
+    <string name="about_app">Acerca de la aplicación</string>
+    <string name="data_similiraty">%de similitud de datos</string>
+    <string name="who_took_my_phone">¿Quién tomó mi teléfono?</string>
+    <string name="reset">Restablecen a los predeterminados</string>
+    <string name="resetdef">
+Todos los datos recopilados desaparecerán al hacer clic en \"Aceptar\"
+</string>
+    <string name="contact_us">Contáctenos</string>
+    <string name="services_used_within_the_app">Servicios que se utilizan dentro de la aplicación</string>
+    <string name="sensors_movement_detection_storage_sms_n_gps_vibration_alarm">
+Sensores (detección de movimiento) - Almacenamiento - SMS \n- GPS - VIBRACIÓN - ALARMA
+</string>
+    <string name="authorizations_required">Autorizaciones requeridas</string>
+    <string name="check_our_website">Consulte nuestro sitio web</string>
+    <string name="www_aieuxscope_com">www.aieuxscope.com</string>
+    <string name="email">Correo electrónico</string>
+    <string name="aieuxscopeccontact_gmail_com">AieuxScopeCContact@gmail.com</string>
+    <string name="gps_storage_sms_sensors_internet">GPS ALMACENAMIENTO SMS SENSORES INTERNET</string>
+    <string name="aieuxscope_v1_0">AieuxScope v1.0</string>
+    <string name="aieuxscopeCust">Cliente de AieuxScope</string>
+    <string name="all_days">Todos los días</string>
+    <string name="confirmation">Completada la tarea!..</string>
+    <string name="sureToMarkAsComplete">
+¿Está seguro de que desea marcar esta tarea como completada?
+</string>
+    <string name="congrats_you_have_completed_the_task_successfully">
+¡AieuxScope espera que te hayas recuperado! ¡Tu recordatorio se eliminó con éxito!
+</string>
+    <string name="delete_confirmation">Confirmación</string>
+    <string name="sureToDelete">¿Está seguro de que desea eliminar la tarea?</string>
+    <string name="yes">sí</string>
+    <string name="no">No</string>
+    <string name="delete">Borrar</string>
+    <string name="update">Actualizar</string>
+    <string name="completed">Terminado</string>
+    <string name="average_accelometer">% aceleración promedio</string>
+    <string name="save">Datos guardados</string>
+    <string name="permissionSen">El permiso ya está concedido</string>
+    <string name="fivesec">Se iniciará en 5 segundos.</string>
+    <string name="notenough">No hay suficientes datos</string>
+    <string name="resetTodef">Restablecen a los predeterminados</string>
+    <string name="permgranted">Permiso concedido</string>
+    <string name="experts">
+Por lo general, los expertos recomiendan que consumas al menos 1,7 litros de líquido cada 24 horas.\" \"Lo que significa que hoy necesitas 6 tomas de agua. ¡Estate atento, te lo recordaremos!
+</string>
+    <string name="remwater">diálogo de recordatorio!</string>
+    <string name="safetrack">¡Caminando seguro! Te rastreamos por seguridad</string>
+    <string name="tryagainfall">Agregue al menos un contacto y vuelva a intentarlo</string>
+    <string name="addmore">"Para agregar más contactos PRESIONE \" \" "</string>
+    <string name="nocontact">No hay contactos todavía! añadir ahora.</string>
+    <string name="addcontact">Agregar contacto</string>
+    <string name="tryagainn">¡Por favor ingrese de nuevo!</string>
+    <string name="contadded">Contacto agregado</string>
+    <string name="areyousuredelete">¿Está seguro de que desea eliminar este contacto?</string>
+    <string name="addedsucces">Has eliminado de los contactos</string>
+    <string name="deletecontt">Borrar contacto</string>
+    <string name="assistelderdes">
+Sólo la muerte puede dividirnos. Los ancianos nunca deben ser olvidados.
+</string>
+    <string name="addmed">
+Seleccione la fecha, hora y agregue medicamentos. Se establece una alarma para recordárselo.
+</string>
+    <string name="hydration">
+¡Las personas con enfermedad de los riñones nunca volverán a tener sed!
+</string>
+    <string name="assisstelder">ayudar a los ancianos</string>
+    <string name="addmedd">"Añadir medicamentos"</string>
+    <string name="hydrtime">¡Tiempo de hidratación!</string>
+    <string name="urgent">URGENTE</string>
+    <string name="my_daily_tasks">mis tareas diarias</string>
+    <string name="todo">Todo</string>
+    <string name="addTask">Agregar nueva tarea</string>
+    <string name="welcome">Bienvenidos</string>
+    <string name="type_your_message">Escribe tu mensaje ...</string>
+    <string name="speak_to_text">hablar al texto</string>
+    <string name="enter_email">Ingrese correo electrónico ..</string>
+    <string name="important">Importante !</string>
+    <string name="the_email_field_is_required">El campo de correo electrónico es obligatorio</string>
+    <string name="the_password_field_is_required">el campo de contraseña es requerido</string>
+    <string name="failed">Fallido !</string>
+    <string name="failed_to_login_try_later">Error al iniciar sesión intentar más tarde</string>
+    <string name="already_nhave_an_naccount">¿Ya \ntienes una \ncuenta?</string>
+    <string name="login">Acceso</string>
+    <string name="new_user_register_now">¿Nuevo Usuario? Regístrate ahora</string>
+    <string name="use_other_methods">Usar otros métodos</string>
+    <string name="wait">Esperar</string>
+    <string name="loading">Cargando ...</string>
+    <string name="choose_an_image_for_your_profile">Elige una imagen para tu perfil</string>
+    <string name="registration_failed_try_later">¡El registro falló, intente más tarde!</string>
+    <string name="the_email_selected_is_already_exist">El correo electrónico seleccionado ya existe</string>
+    <string name="the_name_field_is_required">El campo de nombre es obligatorio</string>
+    <string name="the_phone_field_is_required">El campo de teléfono es obligatorio</string>
+    <string name="here_s_nyour_first_nstep_with_nus">¡Aquí está\ntu primer\npaso con \nus!</string>
+    <string name="choose_image">elegir imagen</string>
+    <string name="register">Registrarse</string>
+    <string name="already_have_an_account">¿Ya tienes una cuenta?</string>
+    <string name="not_available">No disponible</string>
+    <string name="failed_to_retrieve_data">¡Error al recuperar datos!</string>
+    <string name="back_to_nhome">Volver a\nInicio</string>
+    <string name="name">Nombre</string>
+    <string name="four_points">....</string>
+    <string name="phone">Teléfono</string>
+    <string name="account_info">Informacion de cuenta</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="ok">OK</string>
+    <string name="the_email_or_password">
+\"el correo electrónico ya existe o la contraseña seleccionada es incorrecta\"
+</string>
+    <string name="an_error_was_occurred_try_later">\"Se produjo un error, intente más tarde\"</string>
+    <string name="task_title1">Título de la tarea</string>
+    <string name="task_description4">Descripción de la tarea</string>
+    <string name="categoryd">Categoría</string>
+    <string name="addNum">Añade un número</string>
+    <string name="senMsg">
+"¡Oye! Aquí está el código que te permitirá crear tareas para mí \ncódigo: "
+</string>
+    <string name="messageSe">"Mensaje enviado a"</string>
+    <string name="add_a_medicine">"Añadir recordatorio de medicamentos"</string>
+    <string name="fill_the_details_below_to_add_a_task_into_your_todo">
+Complete los detalles a continuación para agregar su medicamento
+</string>
+    <string name="medicine_title">Nombre del medicamento</string>
+    <string name="medicine_description">Descripción del medicamento</string>
+    <string name="medicine_date">¿Qué día quieres que te lo recuerden?</string>
+    <string name="alarm_time">Hora de alarma</string>
+    <string name="add_reminder">Agregar recordatorio</string>
+</resources>

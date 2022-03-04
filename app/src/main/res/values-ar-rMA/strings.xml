@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+<string name="app_name">أيوكسسكوب</string>
+<string name="aieuxscope">AieuxScope ™</string>
+<string name="enterprise">IRISI_GROUP_3 2021</string>
+<string name="navigation_drawer_open">افتح درج التنقل</string>
+<string name="navigation_drawer_close">أغلق درج التنقل</string>
+<string name="action_settings">إعدادات</string>
+<string name="exemple_slogan">
+اختر وجهتك ، خطط لرحلتك. \nاختر أفضل مكان لقضاء عطلتك
+</string>
+<string name="example_title_slogan">خطط لرحلتك</string>
+<string name="get_started">البدء</string>
+<string name="next">التالي</string>
+<string name="login_email_hint">بريد الالكتروني</string>
+<string name="login_password_hint">كلمة المرور</string>
+<string name="task_title">أضف المهام المراد تنفيذها اليوم</string>
+<string name="title_activity_tasks">مهام</string>
+<string name="first_fragment_label">الجزء الأول</string>
+<string name="second_fragment_label">الجزء الثاني</string>
+<string name="previous">سابق</string>
+<string name="hello_first_fragment">مرحبا الجزء الأول</string>
+<string name="hello_second_fragment" >مرحبا الجزء الثاني. </string>
+<string name="title_ifall_alert">كشف السقوط</string>
+<string name="supporting_text_ifall">
+"تم إنشاء ميزة التطبيق هذه من قبل فريق التطوير لدينا \nلمساعدة كبار السن بشكل خاص على اكتشاف سقوطهم والاتصال بجهات اتصال SOS الخاصة بهم. وللتفريق بين اللحظات العاجلة الحاسمة والسقوط المتعمد أو حتى السقوط العادي. \nيمكن للمستخدم ضبط العد التنازلي متى يتم الاتصال بجهة اتصال الطوارئ جلس بالفعل. \nبالقبول ، سيسمح للتطبيق بالعمل في الخلفية ، والتي يمكنك إيقافها في أي وقت. \nلتعديل جهات الاتصال الخاصة بك ، اضغط مطولاً على العنصر "
+</string>
+<string name="AcceloAnalyse">
+"هذه الميزة هي إصدار تجريبي" تحت التطوير "\nوهي تهدف إلى جمع البيانات حول الطريقة التي تمشي بها بشكل معتاد ، نوصيك بالقيام بما لا يقل عن 5 إلى 10 دقائق من المشي .. ووضع هاتفك في وضع ثابت للحصول على نتائج أفضل \nوبالتالي ، يمكن أن تساعدك هذه الميزة بطريقتين: \n\n-الكشف عن السرقة (في الإصدارات التالية القادمة) \n-اكتشاف مشاكل السير وهو هدفنا الرئيسي. \n\nلاحظ أننا نقدم لك نسبتين مئويتين بناءً على البيانات المسجلة (تقدير)! "
+</string>
+<string name="cancel" tools:ignore="ButtonCase">إلغاء</string>
+<string name="decline">انخفاض</string>
+<string name="accept">قبول</string>
+<string name="okay">حسنا</string>
+<string name="email_app">AieuxScopeCContact@gmail.com</string>
+<string name="AppName">AieuxScope</string>
+<string name="medicine_nreminder">دواء \nتذكير</string>
+<string name="my_nagenda">الأجندة \nالخاصة بي</string>
+<string name="my_steps">خطواتي</string>
+<string name="i_fall">أنا أسقط</string>
+<string name="water_nreminder">الماء \nتذكير</string>
+<string name="my_doctor">طبيبي</string>
+<string name="hello">مرحبا</string>
+<string name="i_fall_title">أنا أسقط</string>
+<string name="title_activity_customized_alert">حسب الطلب</string>
+<string name="activate_feature">تنشيط الميزة</string>
+<string name="alarmejarcupbottle2">تعيين</string>
+<string name="alarmejarcupbottle">تعيين ما لي القادم الآن!</string>
+<string name="needjar">انظر الى احتياجاتي لهذا اليوم</string>
+<string name="selecttime">حدد الوقت</string>
+<string name="dialog">احتياجاتك</string>
+<string name="cncl">يلغي</string>
+<string name="who_am_i">منظمة الصحة العالمية ؟</string>
+<string name="run_on_background">تشغيل في الخلفية</string>
+<string name="start">يبدأ</string>
+<string name="stop">قف</string>
+<string name="title_who">منظمة الصحة العالمية ؟</string>
+<string name="Servicehelp_who">"ستستمر الخدمة في العمل في الخلفية \nللبدء</string>
+<string name="startRunningSVwho">خدمة المتواجدون</string>
+<string name="dontshow">لا تظهر مرة أخرى</string>
+<string name="howto">
+"نوصيك ، كأول مرة ، بتمكين الميزة على المقدمة لمدة لا تقل عن 5 -&gt; 10 دقائق ، حتى تتمكن من تخزين البيانات الافتراضية. \nحيث يمكنك تسجيل ما تريد أثناء وجودك في المقدمة!"
+</string>
+<string name="more">أكثر</string>
+<string name="toggle_theme">تبديل الموضوع</string>
+<string name="tools">أدوات</string>
+<string name="fall_detection">كشف السقوط</string>
+<string name="share">شارك</string>
+<string name="who">منظمة الصحة العالمية؟</string>
+<string name="about_app">حول التطبيق</string>
+<string name="data_similiraty">البيانات٪ الت</string>
+<string name="who_took_my_phone">من أخذ هاتفي؟</string>
+<string name="reset">إعادة تعيين إلى الافتراضي</string>
+<string name="resetdef">
+ستختفي جميع البيانات التي تم جمعها بالنقر فوق \"موافق \"
+</string>
+<string name="contact_us">اتصل بنا</string>
+<string name="services_used_within_the_app">الخدمات المستخدمة داخل التطبيق</string>
+<string name="sensors_movement_detection_storage_sms_n_gps_vibration_alarm">
+أجهزة الاستشعار (كشف الحركة) - التخزين - الرسائل القصيرة \n- GPS - الاهتزاز - الإنذار
+</string>
+<string name="authorizations_required">التصاريح المطلوبة</string>
+<string name="check_our_website">تحقق من موقعنا</string>
+<string name="www_aieuxscope_com">www.aieuxscope.com</string>
+<string name="email">بريد الالكتروني</string>
+<string name="aieuxscopeccontact_gmail_com">AieuxScopeCContact@gmail.com</string>
+<string name="gps_storage_sms_sensors_internet">GPS STORAGE SMS SENSORS الإنترنت</string>
+<string name="aieuxscope_v1_0">AieuxScope v1.0</string>
+<string name="aieuxscopeCust">عميل AieuxScope</string>
+<string name="all_days">كل الأيام</string>
+<string name="confirmation">اكتملت المهمة! ..</string>
+<string name="sureToMarkAsComplete">
+هل أنت متأكد أنك تريد وضع علامة على هذه المهمة كمكتملة.
+</string>
+<string name="congrats_you_have_completed_the_task_successfully">
+تأمل AieuxScope أن تتعافى! تم حذف التذكير الخاص بك بنجاح!
+</string>
+<string name="delete_confirmation">تأكيد</string>
+<string name="sureToDelete">هل أنت متأكد أنك تريد حذف المهمة</string>
+<string name="yes">نعم</string>
+<string name="no">رقم</string>
+<string name="delete">حذف</string>
+<string name="update">تحديث</string>
+<string name="completed">مكتمل</string>
+<string name="average_accelometer">٪ AVG تسريع</string>
+<string name="save">تم حفظ البيانات</string>
+<string name="permissionSen">تم منح الإذن بالفعل</string>
+<string name="fivesec">سيبدأ في 5 ثوان</string>
+<string name="notenough">لا توجد بيانات كافية</string>
+<string name="resetTodef">إعادة تعيين إلى الافتراضي</string>
+<string name="permgranted">تم تأمين التصريح</string>
+<string name="experts">
+ينصح الخبراء عمومًا أن تستهلك ما لا يقل عن 1.7 لترًا من السوائل كل 24 ساعة. \"\" مما يعني أنك بحاجة إلى 6 ملاعق من الماء اليوم فابق على اتصال وسنذكرك!
+</string>
+<string name="remwater">حوار تذكير!</string>
+<string name="safetrack">مشي آمن! نحن نتبعك من أجل السلامة</string>
+<string name="tryagainfall">أضف جهة اتصال واحدة على الأقل ثم حاول مرة أخرى</string>
+<string name="addmore">"لإضافة المزيد من جهات الاتصال ، اضغط \" \""</string>
+<string name="nocontact">لا توجد جهات اتصال حتى الآن! إضافة الآن.</string>
+<string name="addcontact">إضافة جهة اتصال</string>
+<string name="tryagainn">الرجاء إدخال مرة أخرى!</string>
+<string name="contadded">تمت إضافة جهة الاتصال</string>
+<string name="areyousuredelete">هل أنت متأكد أنك تريد حذف جهة الاتصال هذه؟</string>
+<string name="addedsucces">لقد حذفت من جهات الاتصال</string>
+<string name="deletecontt">حذف اتصال</string>
+<string name="assistelderdes">
+فقط الموت يمكن أن يفرقنا. لا ينبغي نسيان كبار السن.
+</string>
+<string name="addmed">
+حدد التاريخ والوقت وأضف الأدوية. تم تعيين alaram لتذكيرهم.
+</string>
+<string name="hydration">
+الأشخاص الذين يعانون من أمراض الكلى ، لن يجفوا مرة أخرى!
+</string>
+<string name="assisstelder">مساعدة كبار السن</string>
+<string name="addmedd">"أضف الأدوية"</string>
+<string name="hydrtime">وقت الترطيب!</string>
+<string name="urgent">العاجلة</string>
+<string name="my_daily_tasks">مهامي اليومية</string>
+<string name="todo">كل شئ</string>
+<string name="addTask">أضف مهمة جديدة</string>
+<string name="welcome">مرحبا</string>
+<string name="type_your_message">اكتب رسالتك ...</string>
+<string name="speak_to_text">تحدث إلى نص</string>
+<string name="enter_email">أدخل البريد الإلكتروني ..</string>
+<string name="important">الأهمية !</string>
+<string name="the_email_field_is_required">حقل البريد الإلكتروني مطلوب</string>
+<string name="the_password_field_is_required">حقل كلمة المرور مطلوب</string>
+<string name="failed">فشل !</string>
+<string name="failed_to_login_try_later">فشل في تسجيل الدخول حاول لاحقا</string>
+<string name="already_nhave_an_naccount">هل لديك \nحساب بالفعل؟</string>
+<string name="login">تسجيل الدخول</string>
+<string name="new_user_register_now">مستخدم جديد؟ سجل الان</string>
+<string name="use_other_methods">استخدم طرقًا أخرى</string>
+<string name="wait">انتظر</string>
+<string name="loading">جار التحميل ...</string>
+<string name="choose_an_image_for_your_profile">اختر صورة لملف التعريف الخاص بك</string>
+<string name="registration_failed_try_later">فشل التسجيل حاول لاحقا!</string>
+<string name="the_email_selected_is_already_exist">البريد الإلكتروني المحدد موجود بالفعل</string>
+<string name="the_name_field_is_required">حقل الاسم مطلوب</string>
+<string name="the_phone_field_is_required">حقل الهاتف مطلوب</string>
+<string name="here_s_nyour_first_nstep_with_nus">ها هي \nخطوتك \nالأولى مع \nus!</string>
+<string name="choose_image">اختر صورة</string>
+<string name="register">يسجل</string>
+<string name="already_have_an_account">هل لديك حساب؟</string>
+<string name="not_available">غير متاح</string>
+<string name="failed_to_retrieve_data">فشل في استرداد البيانات!</string>
+<string name="back_to_nhome">رجوع إلى \nالصفحة الرئيسية</string>
+<string name="name">اسم</string>
+<string name="four_points">....</string>
+<string name="phone">هاتف</string>
+<string name="account_info">معلومات الحساب</string>
+<string name="logout">تسجيل خروج</string>
+<string name="ok">موافق</string>
+<string name="the_email_or_password">
+\"البريد الإلكتروني موجود بالفعل أو أن كلمة المرور المحددة غير صحيحة \"
+</string>
+<string name="an_error_was_occurred_try_later">\"حدث خطأ حاول لاحقا \"</string>
+<string name="task_title1">عنوان المهمة</string>
+<string name="task_description4">وصف المهمة</string>
+<string name="categoryd">فئة</string>
+<string name="addNum">أضف رقم</string>
+<string name="senMsg">
+"مرحبًا! هذا هو الرمز الذي سيسمح لك بإنشاء مهام لي \nالرمز:"
+</string>
+<string name="messageSe">"تم إرسال الرسالة إلى"</string>
+<string name="add_a_medicine">"إضافة تذكير دواء"</string>
+<string name="fill_the_details_below_to_add_a_task_into_your_todo">املأ التفاصيل أدناه لإضافة الدواء الخاص بك</string>
+<string name="medicine_title">اسم الطب</string>
+<string name="medicine_description">وصف الطب</string>
+<string name="medicine_date">في أي يوم تريد أن يتم تذكيرك؟</string>
+<string name="alarm_time">وقت التنبيه</string>
+<string name="add_reminder">إضافة تذكير</string>
+
+</resources>

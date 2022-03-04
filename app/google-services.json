@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "888315524640",
+    "project_id": "authmobile-1640176421715",
+    "storage_bucket": "authmobile-1640176421715.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888315524640:android:a622915e1c339ccbb0ee45",
+        "android_client_info": {
+          "package_name": "com.example.testchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "888315524640-hd4m0dapoqc5cfnaea7b4jcosc5ida0v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.testchat",
+            "certificate_hash": "64dc86da0c916322cf5635056dd74cf0dd6dd732"
+          }
+        },
+        {
+          "client_id": "888315524640-iu98grhgj0qcma7r9ncricnqml8ue8dt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGFpBZE_A_LafvP8g33LgSpJiA9YCNZZQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "888315524640-iu98grhgj0qcma7r9ncricnqml8ue8dt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

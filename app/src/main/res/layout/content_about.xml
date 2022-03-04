@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Views.AboutUs"
+    tools:showIn="@layout/activity_profile">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+
+            >
+
+            <TextView
+                style="@style/headerText"
+                android:fontFamily="@font/doppio_one"
+                android:text="@string/contact_us"
+                android:layout_marginBottom="40dp"/>
+
+            <RelativeLayout style="@style/profileDetailsLayout"
+                android:layout_marginBottom="20dp">
+
+                <ImageView
+                    android:id="@+id/nameImageView"
+                    style="@style/profileDetailsImage"
+                    android:src="@drawable/ic_baseline_edgesensor_high_24" />
+
+                <TextView
+                    android:id="@+id/nameTextView"
+                    android:text="@string/services_used_within_the_app"
+                    android:layout_toRightOf="@id/nameImageView"
+                style="@style/profileDetailsTextMain" />
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/profileName"
+                    style="@style/profileDetailsMiniText"
+                    android:layout_toRightOf="@id/nameImageView"
+                    android:text="@string/sensors_movement_detection_storage_sms_n_gps_vibration_alarm" />
+
+            </RelativeLayout>
+
+            <View style="@style/proifleDetailsView" />
+            <RelativeLayout style="@style/profileDetailsLayout"
+                android:layout_marginBottom="20dp">
+
+                <ImageView
+                    android:id="@+id/mobileImageView"
+                    style="@style/profileDetailsImage"
+                    android:src="@drawable/ic_baseline_miscellaneous_services_24" />
+
+                <TextView
+                    style="@style/profileDetailsTextMain"
+                    android:layout_toRightOf="@id/mobileImageView"
+                    android:text="@string/authorizations_required" />
+
+                <TextView
+                    android:id="@+id/profilePhone"
+                    style="@style/profileDetailsMiniText"
+                    android:layout_toRightOf="@id/mobileImageView"
+                    android:text="@string/gps_storage_sms_sensors_internet" />
+
+            </RelativeLayout>
+
+            <View style="@style/proifleDetailsView" />
+            <RelativeLayout style="@style/profileDetailsLayout">
+
+                <ImageView
+                    android:id="@+id/emailImageView"
+                    style="@style/profileDetailsImage"
+                    android:src="@drawable/ic_baseline_connect_without_contact_24" />
+
+                <TextView
+                    android:text="@string/email"
+                    android:layout_toRightOf="@id/emailImageView"
+                    style="@style/profileDetailsTextMain" />
+
+                <TextView
+                    android:id="@+id/contactEmail"
+                    style="@style/profileDetailsMiniText"
+                    android:layout_toRightOf="@id/emailImageView"
+                    android:text="@string/aieuxscopeccontact_gmail_com" />
+
+            </RelativeLayout>
+            <View style="@style/proifleDetailsView" />
+            <RelativeLayout style="@style/profileDetailsLayout">
+
+                <ImageView
+                    android:id="@+id/website"
+                    style="@style/profileDetailsImage"
+                    android:src="@drawable/ic_baseline_contact_support_24" />
+
+                <TextView
+                    android:text="@string/check_our_website"
+                    android:layout_toRightOf="@id/website"
+                    style="@style/profileDetailsTextMain" />
+
+                <TextView
+                    android:id="@+id/websiteww"
+                    style="@style/profileDetailsMiniText"
+                    android:layout_toRightOf="@id/website"
+                    android:text="@string/www_aieuxscope_com" />
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
